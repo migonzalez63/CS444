@@ -1,0 +1,6 @@
+# Script used to run modified client to crack the RSA Scheme if the server
+# for lab 2. I had used to a different port, in this case port 10092,
+# since my port, port 10025, was down at the time of the attack
+
+echo python3 modclient.py -ip 64.106.39.33 -p 10092 -m "testing attack"
+python3 modclient.py -ip 64.106.39.33 -p 10092 -m "testing attack" > POA_Attack.txt
